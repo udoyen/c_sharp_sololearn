@@ -27,6 +27,15 @@ namespace SoloLearn_Arrays_Strings
         //jagged array of 8 2-dimensional arrays
         int[][,] a = new int[8][,];
 
+        public void GetRank()
+        {
+            Console.WriteLine("a array: {0}, {1}", a.Rank, a.Length);
+            Console.WriteLine("jaggedArr2 array: {0}, {1}", jaggedArr2.Rank, jaggedArr2.Length);
+            Console.WriteLine("e array: {0}, {1}", e.Rank, e.Length);
+            Console.WriteLine("someNums array: {0}, {1}", someNums.Rank, someNums.Length);
+
+        }
+
 
         public void GetNum()
         {

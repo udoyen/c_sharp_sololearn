@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F2EEBB35-D063-43BB-8694-6384677C152D}</ProjectGuid>
+    <ProjectGuid>{8342357B-4D69-4365-96DE-7DBFFDDD4D31}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MainEntry</RootNamespace>
-    <AssemblyName>MainEntry</AssemblyName>
+    <RootNamespace>StringMagic</RootNamespace>
+    <AssemblyName>StringMagic</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,24 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Class2\Class2.csproj">
-      <Project>{54e1e2ed-ed8f-4226-986c-a74b66ee8ef9}</Project>
-      <Name>Class2</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SoloLearn\SoloLearn.csproj">
-      <Project>{9f22a8b9-f9ad-409f-a0f4-9bd9c3715c68}</Project>
-      <Name>SoloLearn</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SoloLearn_Arrays_Strings\SoloLearn_Arrays_Strings.csproj">
-      <Project>{1b9163b9-f20d-4911-8431-405f97d5a0e7}</Project>
-      <Name>SoloLearn_Arrays_Strings</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\StringMagic\StringMagic.csproj">
-      <Project>{8342357b-4d69-4365-96de-7dbffddd4d31}</Project>
-      <Name>StringMagic</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

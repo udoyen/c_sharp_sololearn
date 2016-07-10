@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoloLearn_Arrays_Strings", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainEntry", "MainEntry\MainEntry.csproj", "{F2EEBB35-D063-43BB-8694-6384677C152D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringMagic", "StringMagic\StringMagic.csproj", "{8342357B-4D69-4365-96DE-7DBFFDDD4D31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class2", "Class2\Class2.csproj", "{54E1E2ED-ED8F-4226-986C-A74B66EE8EF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{F2EEBB35-D063-43BB-8694-6384677C152D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2EEBB35-D063-43BB-8694-6384677C152D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2EEBB35-D063-43BB-8694-6384677C152D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8342357B-4D69-4365-96DE-7DBFFDDD4D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8342357B-4D69-4365-96DE-7DBFFDDD4D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8342357B-4D69-4365-96DE-7DBFFDDD4D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8342357B-4D69-4365-96DE-7DBFFDDD4D31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E1E2ED-ED8F-4226-986C-A74B66EE8EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E1E2ED-ED8F-4226-986C-A74B66EE8EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E1E2ED-ED8F-4226-986C-A74B66EE8EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E1E2ED-ED8F-4226-986C-A74B66EE8EF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
