@@ -49,6 +49,7 @@ namespace SoloLearn
                 }
             }
         }
+
         public void SayHi()
         {
             Console.WriteLine("Hi");
