@@ -10,7 +10,10 @@ namespace SoloLearn_Arrays_Strings
     {
         static void Main(string[] args)
         {
+            MyLoops mlp = new MyLoops();
+            mlp.GetDnum();
 
+            Console.ReadKey();
         }
     }
 }
