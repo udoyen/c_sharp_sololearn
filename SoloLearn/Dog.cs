@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SoloLearn
 {
-    class Dog
+   public class Dog
     {
         public string name;
         public int age;

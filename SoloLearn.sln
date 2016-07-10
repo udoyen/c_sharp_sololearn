@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoloLearn", "SoloLearn\Solo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoloLearn_Arrays_Strings", "SoloLearn_Arrays_Strings\SoloLearn_Arrays_Strings.csproj", "{1B9163B9-F20D-4911-8431-405F97D5A0E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainEntry", "MainEntry\MainEntry.csproj", "{F2EEBB35-D063-43BB-8694-6384677C152D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1B9163B9-F20D-4911-8431-405F97D5A0E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B9163B9-F20D-4911-8431-405F97D5A0E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B9163B9-F20D-4911-8431-405F97D5A0E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2EEBB35-D063-43BB-8694-6384677C152D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2EEBB35-D063-43BB-8694-6384677C152D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2EEBB35-D063-43BB-8694-6384677C152D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2EEBB35-D063-43BB-8694-6384677C152D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SoloLearn_Arrays_Strings
 {
-    class MyArrays
+    public class MyArrays
     {
         public string[] names = new string[3] { "John", "Daniel", "Gift" };
         //OR

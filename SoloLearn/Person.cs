@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SoloLearn
 {
-    class Person
+    public class Person
     {
 
         private int age;

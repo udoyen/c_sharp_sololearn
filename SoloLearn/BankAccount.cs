@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SoloLearn
 {
-    class BankAccount
+    public class BankAccount
     {
         private double balance = 0;
 

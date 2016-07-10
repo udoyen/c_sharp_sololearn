@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SoloLearn
 {
-    class SecondPerson
+    public class SecondPerson
     {
         public SecondPerson()
         {

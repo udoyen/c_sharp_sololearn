@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace SoloLearn_Arrays_Strings
 {
-    class MyLoops
+    public class MyLoops
     {
         int[] nums = { 1, 2, 3, 4, 5, 6 };
 
         // multi-dimensional arrays
         int[,] someNums = { { 2, 3 }, { 5, 6 }, { 4, 6 } };
+        int[,] e = new int[3,2]; // 3 rows, 2 columns
 
         //jagged arrays -> arrays within arrays
         int[][] jaggedArr = new int[3][];
