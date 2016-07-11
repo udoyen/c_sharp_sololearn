@@ -7,6 +7,8 @@ using SoloLearn;
 using SoloLearn_Arrays_Strings;
 using Class2;
 using Struct_Enums;
+using Files;
+using Generics;
 
 namespace MainEntry
 {
@@ -154,7 +156,30 @@ namespace MainEntry
             //    Console.WriteLine(result);
             //}
 
-            WriteToFile w = new WriteToFile();
+            //MyFile mf = new MyFile();
+            //mf.fileWrite();
+            //mf.fileRead();
+
+            
+            int a = 4, b = 9;
+
+            Gen.Swap<int>(ref a, ref b);
+
+            string x = "Hello";
+            string y = "World";
+
+            Gen.Swap<string>(ref x, ref y);
+
+            Generics.Stack<int> intStack = new Generics.Stack<int>();
+
+            Generics.Stack<string> strStack = new Generics.Stack<string>();
+
+            Generics.Stack<MyPerson> MyPersonStack = new Generics.Stack<MyPerson>();
+
+
+
+
+
 
             
 

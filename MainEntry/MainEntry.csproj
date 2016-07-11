@@ -62,6 +62,10 @@
       <Project>{cd5bb728-2c61-4b6b-a632-797e0eb99189}</Project>
       <Name>Files</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Generics\Generics.csproj">
+      <Project>{57098fbd-1bc1-4818-a267-d26e719ab921}</Project>
+      <Name>Generics</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SoloLearn\SoloLearn.csproj">
       <Project>{9f22a8b9-f9ad-409f-a0f4-9bd9c3715c68}</Project>
       <Name>SoloLearn</Name>
