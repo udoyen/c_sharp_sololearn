@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using SoloLearn;
 using SoloLearn_Arrays_Strings;
 using Class2;
+using Struct_Enums;
 
 namespace MainEntry
 {
@@ -62,10 +63,102 @@ namespace MainEntry
             //Console.WriteLine(b3.Width);
 
 
-            Student s = new Student("George");
-            s.Speak();
+            //Student s = new Student("George");
+            //s.Speak();
+
+            //MyDog md = new MyDog();
+
+            //Shape c = new Circle();
+            //c.Draw();
+
+            //Shape r = new Rectangle();
+            //r.Draw();
+
+            //IShape ic = new Circle2();
+            //ic.Draw();
+
+            //Book b; // instantiatiing struct without the 'new' keyword
+            //b.title = "Test";
+            //b.price = 5.99;
+            //b.author = "George";
+
+            //Console.WriteLine(b.title);
+
+            //Point p = new Point(10, 15);
+
+            //Console.WriteLine(p.x);
+
+
+            //int x = (int)Days.Tue;
+
+            //Console.WriteLine(x);
+
+
+            //TrafficLights x2 = TrafficLights.Red;
+
+            //switch (x2)
+            //{
+            //    case TrafficLights.Green:
+            //        Console.WriteLine("Go!");
+            //        break;
+            //    case TrafficLights.Red:
+            //        Console.WriteLine("Stop!");
+            //        break;
+            //    case TrafficLights.Yellow:
+            //        Console.WriteLine("Caution!");
+            //        break;
+
+            //}
+
+
+            //try
+            //{
+            //    int[] arr = new int[] { 4, 5, 8 };
+            //    Console.WriteLine(arr[8]);
+            //}
+            //catch (Exception e)
+            //{
+            //    Console.WriteLine("An error occurred: " + e.Message);
+
+            //}
+
+
+            //int[] arr1 = { 2, 5, 3 };
+            //int x3 = 0;
+            //try
+            //{
+            //    x3 = arr1[5];
+            //}
+            //catch (Exception e)
+            //{
+
+            //    x3 = arr1[x3];
+            //}
+
+
+            //int result = 0;
+            //int num1 = 8;
+            //int num2 = 4;
+
+            //try
+            //{
+            //    result = num1 / num2;
+            //}
+            //catch (DivideByZeroException e)
+            //{
+
+            //    Console.WriteLine("Error");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine(result);
+            //}
+
+            WriteToFile w = new WriteToFile();
+
             
-            
+
+
 
             Console.ReadKey();
         }

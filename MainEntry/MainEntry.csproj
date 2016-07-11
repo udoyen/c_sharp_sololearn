@@ -54,6 +54,14 @@
       <Project>{54e1e2ed-ed8f-4226-986c-a74b66ee8ef9}</Project>
       <Name>Class2</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Exceptions\Exceptions.csproj">
+      <Project>{911121f6-bd0a-469a-bf0e-1af428ac76c1}</Project>
+      <Name>Exceptions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Files\Files.csproj">
+      <Project>{cd5bb728-2c61-4b6b-a632-797e0eb99189}</Project>
+      <Name>Files</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SoloLearn\SoloLearn.csproj">
       <Project>{9f22a8b9-f9ad-409f-a0f4-9bd9c3715c68}</Project>
       <Name>SoloLearn</Name>
@@ -65,6 +73,10 @@
     <ProjectReference Include="..\StringMagic\StringMagic.csproj">
       <Project>{8342357b-4d69-4365-96de-7dbffddd4d31}</Project>
       <Name>StringMagic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Struct_Enums\Struct_Enums.csproj">
+      <Project>{9d90cec9-af5a-48fb-99bd-79cc04bf7704}</Project>
+      <Name>Struct_Enums</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
